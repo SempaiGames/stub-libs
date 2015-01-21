@@ -15,7 +15,7 @@ class Device
 
 	public static function getLanguageCode():String 
 	{
-		return flash.system.Capabilities.language;
+		return "en";
 	}
 
 	public static function isTablet():Bool
@@ -25,12 +25,12 @@ class Device
 
 	public static function getScreenHeight():Int
 	{
-		return flash.Lib.current.stage.stageHeight;
+		return 480;
 	}
 
 	public static function getScreenWidth():Int
 	{
-		return flash.Lib.current.stage.stageWidth;
+		return 800;
 	}
 
 	public static function getScaleFactor():Float
