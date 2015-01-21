@@ -7,11 +7,13 @@ The idea is simple: Add the haxelib stub-lib to your project and comment the sus
 
 So far, this library has stubs for:
 
-* openfl-admob
-* gamecenter
 * iap
-* hyp-system
+* gamecenter
 * haxe-ga
+* openfl-admob
+* openfl-share
+* openfl-nativedialog
+* hyp-system
 
 Use Example:
 =======
@@ -21,16 +23,16 @@ Use Example:
 	<haxelib name="flixel"/>
 	<haxelib name="flixel-addons"/>
 	<haxelib name="flixel-ui"/>
+	<haxelib name="actuate"/>
 	<haxelib name="stub-libs" /> <!-- addding this allows removing the other libraries without touching your code -->
 	<!--haxelib name="haxe-ga"/>
 	<haxelib name="openfl-admob" />
 	<haxelib name="iap"/>
 	<haxelib name="hyp-system" /-->
-	<haxelib name="openfl-gpg" />
 	<!--haxelib name="gamecenter" /-->
 	<haxelib name="openfl-share"/>
-	<haxelib name="actuate"/>
 	<haxelib name="openfl-nativedialog" />
+	<haxelib name="openfl-gpg" />
 ```
 
 How to Install:
