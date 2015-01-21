@@ -13,6 +13,7 @@ So far, this library has stubs for:
 * openfl-admob
 * openfl-share
 * openfl-nativedialog
+* openfl-locale
 * hyp-system
 
 ```
