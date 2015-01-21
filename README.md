@@ -15,6 +15,10 @@ So far, this library has stubs for:
 * openfl-nativedialog
 * hyp-system
 
+```
+Feel free to add any stub for any library and send pull requests :)
+```
+
 Use Example:
 =======
 
