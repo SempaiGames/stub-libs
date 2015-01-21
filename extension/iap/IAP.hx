@@ -1,4 +1,7 @@
 package extension.iap;
+
+import flash.events.Event;
+
 typedef IAProduct = {
     productID: String,
     ?localizedTitle:String,
@@ -12,18 +15,11 @@ typedef IAProduct = {
 
 @:allow(extension.iap) class IAP {
 	
-	public static var available (get, null):Bool;
-	public static var manualTransactionMode (get, set):Bool;
+	public static var available:Bool;
+
+	public static var manualTransactionMode:Bool;
 	
-	public static var inventory(default, null):Inventory = null;
-	
-	private static var initialized = false;
-	
-	private static var tempProductsData:Array<IAProduct> = [];
-	
-	// Event dispatcher composition
-	private static var dispatcher = new EventDispatcher ();
-	
+	public static var inventory:Inventory = null;
 	
 	public static function initialize (publicKey:String = ""):Void { }
 	
