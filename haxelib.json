@@ -1,0 +1,10 @@
+{
+	"name": "stub-libs",
+	"url": "https://github.com/fbricker/stub-libs",
+	"license": "GPL",
+	"contributors":["fbricker"],
+	"tags": ["cross","api","google","analytics","admob","iap","testing","stub"],
+	"description": "Haxe/Lime/OpenFL - Stub libraries 100% bug-free for testing.",
+	"version": "0.1.0",
+	"releasenote": "Added IAP, OPENFL-ADMOB and HAXE-GA."
+}
