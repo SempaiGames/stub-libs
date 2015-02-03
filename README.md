@@ -20,8 +20,7 @@ So far, this library has stubs for:
 Feel free to add any stub for any library and send pull requests :)
 ```
 
-Use Example:
-=======
+###Use Example:
 
 ```xml
 	<haxelib name="openfl" />
@@ -40,23 +39,20 @@ Use Example:
 	<haxelib name="openfl-gpg" />
 ```
 
-How to Install:
-=======
+###How to Install:
 
 ```bash
 haxelib install stub-libs
 ```
 
-Disclaimer
-=======
+###Disclaimer
 
 This library is distributed as is. It only contains empty API for other open source libraries. If you find that some library has an issue, you should report this directly to the library owner.
 
-License
-=======
+###License
 
 The MIT License (MIT) - [LICENSE.md](LICENSE.md)
 
-Copyright (c) 2015 SempaiGames (http://www.sempaigames.com)
+Copyright &copy; 2015 SempaiGames (http://www.sempaigames.com)
 
 Author: Federico Bricker
