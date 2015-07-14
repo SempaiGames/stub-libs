@@ -1,6 +1,6 @@
 {
 	"name": "stub-libs",
-	"url": "https://github.com/fbricker/stub-libs",
+	"url": "https://github.com/sempaigames/stub-libs",
 	"license": "MIT",
 	"contributors":["fbricker"],
 	"tags": ["cross","api","google","analytics","admob","iap","testing","stub"],
